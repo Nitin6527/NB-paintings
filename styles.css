@@ -81,7 +81,7 @@ body, html {
 }
 .parallax2{
   /* The image used */
-  background-image: url("https://cdn.pixabay.com/photo/2016/06/25/12/55/art-1478831_1280.jpg");
+  background-image: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/333273/1360/906/m1/fpnw/wm1/rxyhuafw9fxsb3ptnomfpuuj6llg3m1iqb1jxv9yl7p6cduq2y6nx2gdfnuqxas3-.jpg?1422816020&s=3bd4373ea69ed0c16043f73897c72f1b");
   /* Full height */
   height:100%;
   /* Create the parallax scrolling effect */
@@ -93,7 +93,7 @@ body, html {
 }
 .parallax3{
   /* The image used */
-  background-image: url("https://cdn.pixabay.com/photo/2017/11/11/21/08/paint-2940513_1280.jpg");
+  background-image: url("https://res.cloudinary.com/simpleview/image/upload/crm/columbus/htct_paintbrushes-768x5120_c7fe3037-5056-a348-3ae6a47825c0b324.jpg");
   /* Full height */
   height:100%;
   /* Create the parallax scrolling effect */
@@ -105,7 +105,7 @@ body, html {
 }
 .parallax4{
   /* The image used */
-  background-image: url("https://cdn.pixabay.com/photo/2017/11/11/21/08/paint-2940513_1280.jpg");
+  background-image: url("https://res.cloudinary.com/simpleview/image/upload/crm/columbus/htct_paintbrushes-768x5120_c7fe3037-5056-a348-3ae6a47825c0b324.jpg");
   /* Full height */
   height:50%;
   /* Create the parallax scrolling effect */
@@ -139,7 +139,10 @@ body, html {
 
 /*===welcome-row===*/
 .row {
-  padding: 0 ;
+  padding: 0 20%;
+}
+.col{
+  padding: 0 10%;
 }
 
 .profile{
@@ -159,4 +162,24 @@ body, html {
   padding: 5%;
   font-size: 1.5rem;
   color: #dee0d9;
+}
+/*===scrolltopbutton====*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #0b8457;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
 }
