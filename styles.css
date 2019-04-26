@@ -17,8 +17,9 @@
   background-image: url("https://images.pexels.com/photos/374054/pexels-photo-374054.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-repeat: no-repeat;
 }
-#Gallery{
-height: 1200px;
+#gallery{
+background-image: url("http://www.52dazhew.com/data/out/188/587094889-rain-desktop-wallpaper.jpg");
+background-repeat: no-repeat;
 }
 
 .container-fluid{
