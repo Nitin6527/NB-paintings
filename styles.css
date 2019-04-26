@@ -1,0 +1,165 @@
+.mainbody {
+  background-color: #f6f5f5;
+  text-align: center;
+  font-family: 'Harmattan', sans-serif;
+}
+
+/*===id's===*/
+#title {
+  padding: 0 5%;
+  color: #dee0d9;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-position: center;
+  background-color: #fff;
+  box-shadow: 10px 10px 5px grey;
+  background-image: url("https://images.pexels.com/photos/374054/pexels-photo-374054.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+}
+#Gallery{
+height: 1200px;
+}
+
+.container-fluid{
+  height: 1200px;
+}
+/*======navbar=====*/
+.fas {
+  color: #dee0d9;
+  text-shadow: 8px 8px black;
+  padding: 5%;
+}
+
+.nav-item {
+  padding: 10%;
+}
+
+.nav-link {
+  color: #dee0d9;
+  font-size: 1.2rem;
+}
+
+.nav-item {
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+/*===welcomecontainer====*/
+.welcome{
+  padding: 15%;
+}
+.welcomeheading {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: bold;
+  text-shadow: 10px 10px black;
+  font-size: 4rem;
+}
+
+.welcomepara {
+  font-size: 1.5rem;
+
+}
+
+/*===parallax===*/
+body, html {
+  height: 100%;
+}
+
+.parallax1{
+  /* The image used */
+  background-image: url("https://cdn.pixabay.com/photo/2016/06/25/12/55/art-1478831_1280.jpg");
+  /* Full height */
+  height:80%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2{
+  /* The image used */
+  background-image: url("https://cdn.pixabay.com/photo/2016/06/25/12/55/art-1478831_1280.jpg");
+  /* Full height */
+  height:100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.parallax3{
+  /* The image used */
+  background-image: url("https://cdn.pixabay.com/photo/2017/11/11/21/08/paint-2940513_1280.jpg");
+  /* Full height */
+  height:100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.parallax4{
+  /* The image used */
+  background-image: url("https://cdn.pixabay.com/photo/2017/11/11/21/08/paint-2940513_1280.jpg");
+  /* Full height */
+  height:50%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+/*===transparentcontainer====*/
+
+#container .content {
+  position: absolute;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #dee0d9;
+  padding: 5%;
+  height: 80%;
+  width: 100%;
+}
+#contact .bottom-container{
+  position: absolute;
+ background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #dee0d9;
+  height: 50%;
+  padding: 10%;
+  width: 100%;
+}
+
+
+/*===welcome-row===*/
+.row {
+  padding: 0 ;
+}
+
+.profile{
+  height: 120px;
+  border-radius: 50%;
+}
+/*===gallery==*/
+.galleryheading{
+  padding: 5%;
+
+}
+.footer-link{
+  color: #dee0d9;
+  padding: 0 5%;
+}
+.copyright{
+  padding: 5%;
+  font-size: 1.5rem;
+  color: #dee0d9;
+}
